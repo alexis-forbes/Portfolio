@@ -84,19 +84,13 @@ p {
   margin: 30px;
 }
 
-.btn-card{
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .btn-branding {
   background: var(--branding-color);
-  width: 250px;
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 50px;
+  padding: 15px 30px;
 }
 
 .btn-branding-outline {
@@ -110,6 +104,38 @@ p {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
